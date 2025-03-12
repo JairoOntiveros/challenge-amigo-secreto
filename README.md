@@ -53,6 +53,6 @@ La aplicación permite a los usuarios:
 * HTML
 * CSS
 * JavaScript
-* 
+
 ## Licencia
 Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más información.
