@@ -15,18 +15,23 @@ function agregarAmigo() {
         alert('Ingresa un nombre válido por favor');
         return;
         
-    } else {
-
-        //comprobamos si el sorteo se ha realizado anteriormente para reiniciar el juego
-        if(ganador.innerHTML !==''){
-            reinicioSorteo();
-        }
-
-        listaDeNombres.push(nombre);
+    } 
+    // Comprobamos si el nombre se repite
+    if (listaDeNombres.includes(nombre)) {
+        alert('Este nombre ya esta en la lista por favor agrega uno diferente.');
         limpiarCaja();
-        actualizarLista();
         return;
     }
+    //comprobamos si el sorteo se ha realizado anteriormente para reiniciar el juego
+    if(ganador.innerHTML !==''){
+        reinicioSorteo();
+    }
+
+    listaDeNombres.push(nombre);
+    limpiarCaja();
+    actualizarLista();
+    return;
+
     
 }
 
