@@ -1,6 +1,6 @@
 <h1 align= "center">Challenge del amigo secreto </h1>
 
-![Static Badge](https://img.shields.io/badge/Versi%C3%B3n-2.0-green)
+![Static Badge](https://img.shields.io/badge/Versi%C3%B3n-2.1-green)
 
 ## índice
 

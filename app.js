@@ -45,7 +45,8 @@ textInput.addEventListener("keyup", function(event) { //utilizamos keyup ya que 
 
 
 function limpiarCaja() {
-    document.getElementById('amigo').value = '';    
+    document.getElementById('amigo').value = '';
+    textInput.focus();    
     return;
 }
 
